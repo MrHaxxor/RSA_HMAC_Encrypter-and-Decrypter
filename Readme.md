@@ -8,15 +8,15 @@ OR
 
 # Get Public key From Website
 
-openssl s_client -connect www.example.com:443 | openssl x509 -pubkey -noout
+$ openssl s_client -connect www.example.com:443 | openssl x509 -pubkey -noout
 
 # To Encrypt data as same as Mobile, ios, Tv app do.
->> channge $data variable a text to encrypt.
+> change $data variable a text to encrypt.
 $ php Enc_Dec.php
 
 # To Decrypt data as same as Server do.
 $ php Decrypter.php 
->> channge  $encryptedData variable a text to Decrypt.
+> change $encryptedData variable a text to Decrypt.
 
 
 
